@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation {
+    display: flex;
+    border-radius: 20px;
+    margin: 5px 10px 0px 10px;
+    background-color: rgb(42, 194, 12);
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav {
+    padding: 10px 20px;
+}
+
+.nav:hover {
+    background-color: rgb(8, 165, 40);
+}
+
+#home {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 50px;
+}
+
+.Header img {
+    height: 160px;
+    width: 160px;
+}
+
+.Header {
+    display: flex;
+    align-items: center;
+}
+
+.Header h3 {
+    padding: 28px 0px 0px 15px;
+    color: rgb(8, 165, 40);
+    /* color: rgb(212, 164, 9); */
+    font-size: 55px;
+}
+
+.info1{
+    padding: 50px 100px 0px 70px;
+    display: flex;
+}
+
+.info1 h6 {
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+.info1 p{
+    font-size: 18px;
+    width: 750px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+
+.image1{
+   position: absolute;
+   top:255px;
+   right:180px;
+}
+
+.image1 img{
+    border-radius: 10px;
+}
+
+/* The above one is info1 and below one id about info2 */
+
+.info2{
+    padding: 100px 100px 0px 70px;
+    display: flex;
+}
+
+.info2 h6 {
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+.info2 p{
+    font-size: 18px;
+    width: 750px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+
+.image2{
+   position: absolute;
+   top:580px;
+   right:165px;
+}
+
+.image2 img{
+    border-radius: 10px;
+}
+
+
